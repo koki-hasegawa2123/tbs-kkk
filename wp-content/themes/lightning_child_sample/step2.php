@@ -18,7 +18,7 @@ try {
   
   //データチェック============================================================
   //==========================================================================
-  
+
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
@@ -247,8 +247,6 @@ try {
 //var_dump($times);
 $num = 1;
 $sum = 1;
-//$_SESSION['form'] = $_POST['form'];
-//var_dump($time);
 ?>
 <!DOCTYPE html>
 <html lang="ja">
